@@ -1,0 +1,108 @@
+:root {
+    --default-color: #1d97e8ba;
+    --blue-color: #1d97e8ba;
+    --secondary-color: #06b0d2;
+    --background-color: #FFF5E4;
+    --text-color: #333;
+    --button-background: #BC9F8B;
+    --button-hover: #4A343B;
+}
+
+body.dark-mode {
+    --background-color: #333;
+    --text-color: #FCF8F3;
+    --blue-color: #242424;
+    --secondary-color: #475350;
+    --button-background: #555;
+    --button-hover: #777;
+}
+
+section .dark-mode {
+    color: darkblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin-top: 30px;
+}
+
+.custom-header {
+    max-width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    color: var(--text-color);
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 10rem;
+    box-shadow: -2px 11px 47px 0px rgba(81, 56, 15, 0.522);
+    background-color: var(--blue-color);
+}
+
+.themes {
+    background-color: var(--button-background);
+    font-weight: 700;
+    max-width: 100px;
+    letter-spacing: 3px;
+}
+
+.themes:hover {
+    background-color: var(--button-hover);
+}
+
+hr {
+    border: 1px dotted black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 15px;
+    color: var(--button-hover);
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#form-demo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+input, select {
+    padding: 8px;
+    border: 0;
+    background-color: var(--button-background);
+    border-radius: 0;
+}
+
+button {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #aeae27;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: var(--blue-color);
+    padding: 10px;
+}
