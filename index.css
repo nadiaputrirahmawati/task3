@@ -1,11 +1,11 @@
 :root {
-    --default-color: #1d97e8ba;
     --blue-color: #1d97e8ba;
-    --secondary-color: #06b0d2;
+    --secondary-color: #0b9cea;
     --background-color: #FFF5E4;
     --text-color: #333;
-    --button-background: #BC9F8B;
+    --button-background: #f5d3be;
     --button-hover: #4A343B;
+    --input-button: #FAF7F0;
 }
 
 body.dark-mode {
@@ -22,7 +22,7 @@ section .dark-mode {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -83,7 +83,7 @@ section {
 input, select {
     padding: 8px;
     border: 0;
-    background-color: var(--button-background);
+    background-color: var(--input-button);
     border-radius: 0;
 }
 
