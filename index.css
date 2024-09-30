@@ -2,10 +2,10 @@
     --blue-color: #1d97e8ba;
     --secondary-color: #0b9cea;
     --background-color: #FFF5E4;
-    --text-color: #333;
+    --text-color: #fdf9f9;
     --button-background: #f5d3be;
     --button-hover: #4A343B;
-    --input-button: #FAF7F0;
+    --input-button: #ded6cb;
 }
 
 body.dark-mode {
@@ -14,7 +14,7 @@ body.dark-mode {
     --blue-color: #242424;
     --secondary-color: #475350;
     --button-background: #555;
-    --button-hover: #777;
+    --button-hover: #f9f3f3;
 }
 
 section .dark-mode {
@@ -46,10 +46,12 @@ body {
     font-weight: 700;
     max-width: 100px;
     letter-spacing: 3px;
+    color: #242424;
 }
 
 .themes:hover {
     background-color: var(--button-hover);
+    color: var(--background-color);
 }
 
 hr {
@@ -67,9 +69,10 @@ hr {
 }
 
 section {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.482);
+    border:  2px solid black;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -97,7 +100,7 @@ button {
 }
 
 button:hover {
-    background-color: #aeae27;
+    background-color: #295F98;
 }
 
 footer {

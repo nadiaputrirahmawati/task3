@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     text.textContent = `Hello, ${name}! ${skill} Yang kamu pilih .`;
 
     const colors = {
-      HTML: "#e74c3c",
-      CSS: "#3498db",
-      JAVASCRIPT: "#f1c40f",
+      HTML: "#C96868",
+      CSS: "#7EACB5",
+      JAVASCRIPT: "#CD5C08",
     };
 
     document.documentElement.style.setProperty("--blue-color",colors[skill] || "#000");
